@@ -1,0 +1,35 @@
+{
+  "name": "@jasonfleischer/fretboard",
+  "version": "1.0.0",
+  "description": "a fretboard view",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonfleischer/npm-fretboard.git"
+  },
+  "keywords": [
+    "fretboard",
+    "guitar"
+  ],
+  "author": {
+    "name": "Jason Fleischer",
+    "email": "jason_fleischer@hotmail.ca",
+    "url": "http://jasonfleischer.github.io/website/"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://ko-fi.com/jasonfleischer"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonfleischer/npm-fretboard/issues"
+  },
+  "homepage": "https://github.com/jasonfleischer/npm-fretboard#readme",
+  "dependencies": {
+    "@jasonfleischer/log": "^1.0.1",
+    "@jasonfleischer/music-model-kit": "^1.0.1"
+  }
+}
