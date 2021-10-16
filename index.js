@@ -28,7 +28,12 @@ function fretboardBuilder(options) {
 		showLabels = options.showLabels;
 	}
 
-	return new FretboardView(id, width, options.onClick, hover, showLabels);
+	var darkMode = false;
+	if (options.darkMode !== undefined){
+		darkMode = options.darkMode;
+	}
+
+	return new FretboardView(id, width, options.onClick, hover, showLabels, darkMode);
 }
 
 module.exports = fretboardBuilder;

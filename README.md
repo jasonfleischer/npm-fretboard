@@ -30,7 +30,8 @@ const fretboardView = fretboardKit({
 		}
 	},
 	hover: true,
-	showLabels: true
+	showLabels: true,
+	darkMode: false
 });
 
 // draw a note
