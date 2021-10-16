@@ -23,7 +23,12 @@ function fretboardBuilder(options) {
 		hover = options.hover;
 	}
 
-	return new FretboardView(id, width, options.onClick, hover);
+	var showLabels = true;
+	if (options.showLabels !== undefined){
+		showLabels = options.showLabels;
+	}
+
+	return new FretboardView(id, width, options.onClick, hover, showLabels);
 }
 
 module.exports = fretboardBuilder;

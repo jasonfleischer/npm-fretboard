@@ -21,7 +21,7 @@ musicKit.init();
 
 const fretboardView = fretboardKit({
 	id: 'your_fretboard_id',
-	width: 325,
+	width: 1000,
 	onClick: function(note, isOn) {
 		if(isOn) {
 			fretboardView.drawNote(note);
@@ -29,7 +29,8 @@ const fretboardView = fretboardKit({
 			fretboardView.clearNote(note);
 		}
 	},
-	hover: true
+	hover: true,
+	showLabels: true
 });
 
 // draw a note
