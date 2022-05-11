@@ -1,6 +1,6 @@
 {
   "name": "@jasonfleischer/fretboard",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "a fretboard view",
   "main": "index.js",
   "scripts": {
