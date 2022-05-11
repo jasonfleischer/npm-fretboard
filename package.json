@@ -1,6 +1,6 @@
 {
   "name": "@jasonfleischer/fretboard",
-  "version": "1.0.5",
+  "version": "1.0.12",
   "description": "a fretboard view",
   "main": "index.js",
   "scripts": {
@@ -32,6 +32,6 @@
   "homepage": "https://github.com/jasonfleischer/npm-fretboard#readme",
   "dependencies": {
     "@jasonfleischer/log": "^1.0.1",
-    "@jasonfleischer/music-model-kit": "^1.0.1"
+    "@jasonfleischer/music-model-kit": "^1.0.12"
   }
 }
